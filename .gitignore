@@ -221,3 +221,17 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Project data: never commit
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Benchmark logs (plots are fine to commit)
+results/*.csv
+
+# Spark / Java leftovers
+spark-warehouse/
+metastore_db/
+derby.log
