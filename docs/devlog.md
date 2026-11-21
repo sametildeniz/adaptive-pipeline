@@ -26,3 +26,4 @@
 - Test design lesson: each invalid row should break only ONE rule, otherwise removing a rule can go unnoticed. Boundary rows (exactly 1 and 180 min) are tested explicitly.
 - pytest result: All 4 tests are passed for the example "CASES" dataframe.
 - Rule-removal experiment (delete one rule, confirm a test fails): expected tests failed for each removal.
+- Validated `clean()` on the full January file (Colab, pandas 2.2.3): 2,964,624 -> 2,859,022 rows; 105,602 removed, exactly the combined count from the exploration step.
