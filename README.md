@@ -30,7 +30,7 @@ that picks the best one automatically, with fallback on memory failure.
 
 \- \[ ] Benchmark harness (time, peak memory, success/failure)
 
-\- \[ ] Rule-based router with `--explain`
+\- \[ ] Rule-based router
 
 \- \[ ] Evaluation on unseen configurations
 
